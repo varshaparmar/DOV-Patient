@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xYa-PA-9gK">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Light</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--ProfileVC-->
+        <scene sceneID="L7v-BT-UK4">
+            <objects>
+                <viewController storyboardIdentifier="DOVProfile__VC" id="kDP-LI-a4F" customClass="DOVProfile__VC" customModule="DOV___Patient" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XWN-eh-Rfz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="xDy-hl-4PX"/>
+                    </view>
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zuG-gL-Fcc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-214" y="-1278"/>
+        </scene>
+        <!--TandCVC-->
+        <scene sceneID="QtT-n3-Zc8">
+            <objects>
+                <viewController storyboardIdentifier="DOVTandC_VC" id="RaO-RS-XoY" customClass="DOVTandC_VC" customModule="DOV___Patient" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="soE-Xo-H6v">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Uek-sI-k2E"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="61o-Ff-shl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3342" y="-466"/>
+        </scene>
+        <!--DOVFAQ_VC-->
+        <scene sceneID="zdR-pv-VSL">
+            <objects>
+                <viewController storyboardIdentifier="DOVFAQ_VC" id="qtH-3H-UsO" customClass="DOVFAQ_VC" customModule="DOV___Patient" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TM2-ge-CWq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="8Z1-ar-uRx"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6xu-yp-uIF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2623" y="-466"/>
+        </scene>
+        <!--Contact UsVC-->
+        <scene sceneID="XUx-vz-9NJ">
+            <objects>
+                <viewController storyboardIdentifier="DOVContactUs_VC" id="b7X-Nu-2Xm" customClass="DOVContactUs_VC" customModule="DOV___Patient" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tHy-qV-Tv4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="QYn-jJ-OYc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h4l-ch-awN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1927" y="-466"/>
+        </scene>
+        <!--About UsVC-->
+        <scene sceneID="Ixe-E0-ZLy">
+            <objects>
+                <viewController storyboardIdentifier="DOVAboutUs_VC" id="j2G-q5-An5" customClass="DOVAboutUs_VC" customModule="DOV___Patient" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bhr-SQ-eyh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="UFU-ea-bfw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qG9-nX-XQ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1249" y="-466"/>
+        </scene>
+        <!--Privacy PolicyVC-->
+        <scene sceneID="rT2-jz-RX1">
+            <objects>
+                <viewController storyboardIdentifier="DOVPrivacyPolicy_VC" id="z4K-EB-Leo" customClass="DOVPrivacyPolicy_VC" customModule="DOV___Patient" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tL5-kN-cpg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="KKK-sr-Tg9"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mgp-07-fZM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-542" y="-466"/>
+        </scene>
+        <!--SettingVC-->
+        <scene sceneID="Mse-PB-pa3">
+            <objects>
+                <viewController storyboardIdentifier="DOVSetting_VC" id="9H9-4B-eMn" customClass="DOVSetting_VC" customModule="DOV___Patient" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OI2-c1-4wE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="WM4-RM-rjE"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="V9J-GC-rJ2">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="CsI-uJ-FXJ"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TOK-9a-GhS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-124" y="-1982"/>
+        </scene>
+        <!--My AppointmentVC-->
+        <scene sceneID="oHK-a4-q4m">
+            <objects>
+                <viewController storyboardIdentifier="DOVMyAppointment_VC" id="0x7-3r-HkY" customClass="DOVMyAppointment_VC" customModule="DOV___Patient" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gts-vB-yz8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="aRU-d0-X3V"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="xWO-QF-ZDu"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v8m-vH-nh7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1164" y="-1993"/>
+        </scene>
+        <!--DashboardVC-->
+        <scene sceneID="6vP-tN-bFO">
+            <objects>
+                <viewController restorationIdentifier="DOVDashboard_VC" storyboardIdentifier="DOVDashboard_VC" id="SQE-Bb-4oq" customClass="DOVDashboard_VC" customModule="DOV___Patient" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9o0-m0-vMB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.79109007120132446" green="0.94638568162918091" blue="0.9454769492149353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="bFV-pa-Hhi"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cNT-Jj-WpD"/>
+                    <connections>
+                        <segue destination="0x7-3r-HkY" kind="show" id="k3J-Pr-tKd"/>
+                        <segue destination="9H9-4B-eMn" kind="show" id="YI4-OW-jJ0"/>
+                        <segue destination="kDP-LI-a4F" kind="show" id="u3j-6W-uNs"/>
+                        <segue destination="j2G-q5-An5" kind="show" id="tJC-XL-Nkp"/>
+                        <segue destination="b7X-Nu-2Xm" kind="show" id="5UH-1j-Gkq"/>
+                        <segue destination="qtH-3H-UsO" kind="show" id="vse-bk-jRN"/>
+                        <segue destination="RaO-RS-XoY" kind="show" id="aSG-4I-dyP"/>
+                        <segue destination="z4K-EB-Leo" kind="show" id="WdO-Ds-ZUV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Znz-kV-us5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1650" y="-1277"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8xy-lA-1HI">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e02-cR-9a2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xYa-PA-9gK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gQZ-KE-3Pf">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.2733323305" green="0.3866064038" blue="0.890069797" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="SQE-Bb-4oq" kind="relationship" relationship="rootViewController" id="VME-BP-vVK"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-3209" y="-1278"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="PyQ-Wi-EMj">
+            <objects>
+                <viewController storyboardIdentifier="MenuViewController" id="uVC-bG-5sx" customClass="MenuViewController" customModule="DOV___Patient" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1qM-xf-CRc"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Iw-I1-3kI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Mvz-rZ-OJQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLb-gJ-zpY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.66666668650000005" green="0.66666668650000005" blue="0.66666668650000005" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onCloseMenuClick:" destination="uVC-bG-5sx" eventType="touchUpInside" id="epD-eg-y0c"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="54" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="F2x-Go-KgF">
+                                <rect key="frame" x="0.0" y="64" width="315" height="603"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellMenu" id="Xp6-MO-0gV">
+                                        <rect key="frame" x="0.0" y="22" width="315" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xp6-MO-0gV" id="2x6-B9-jMR">
+                                            <rect key="frame" x="0.0" y="0.0" width="315" height="53.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4mb-TT-9tp">
+                                                    <rect key="frame" x="8" y="8" width="38" height="38"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="38" id="qOk-uS-cHv"/>
+                                                        <constraint firstAttribute="width" constant="38" id="yQC-ky-t7N"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hc3-Ty-izz">
+                                                    <rect key="frame" x="54" y="16" width="253" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="mBb-is-E0A"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="hc3-Ty-izz" firstAttribute="leading" secondItem="4mb-TT-9tp" secondAttribute="trailing" constant="8" id="03H-ig-Cfi"/>
+                                                <constraint firstAttribute="trailing" secondItem="hc3-Ty-izz" secondAttribute="trailing" constant="8" id="Kjs-qY-hd2"/>
+                                                <constraint firstItem="hc3-Ty-izz" firstAttribute="centerY" secondItem="2x6-B9-jMR" secondAttribute="centerY" id="eNN-t5-npx"/>
+                                                <constraint firstItem="4mb-TT-9tp" firstAttribute="leading" secondItem="2x6-B9-jMR" secondAttribute="leading" constant="8" id="gs4-tO-qQI"/>
+                                                <constraint firstItem="4mb-TT-9tp" firstAttribute="centerY" secondItem="2x6-B9-jMR" secondAttribute="centerY" id="yDL-XM-NVt"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="uVC-bG-5sx" id="gn7-04-JWE"/>
+                                    <outlet property="delegate" destination="uVC-bG-5sx" id="8BJ-Uu-Jk7"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="F2x-Go-KgF" firstAttribute="top" secondItem="Mvz-rZ-OJQ" secondAttribute="top" constant="64" id="0Xj-YL-Tx7"/>
+                            <constraint firstItem="F2x-Go-KgF" firstAttribute="leading" secondItem="Mvz-rZ-OJQ" secondAttribute="leading" id="34h-AM-oQU"/>
+                            <constraint firstItem="YLb-gJ-zpY" firstAttribute="top" secondItem="Mvz-rZ-OJQ" secondAttribute="top" id="Esj-wq-mBY"/>
+                            <constraint firstAttribute="trailing" secondItem="F2x-Go-KgF" secondAttribute="trailing" constant="60" id="FNU-83-Hwe"/>
+                            <constraint firstAttribute="bottom" secondItem="F2x-Go-KgF" secondAttribute="bottom" id="Rsv-yh-crV"/>
+                            <constraint firstAttribute="trailing" secondItem="YLb-gJ-zpY" secondAttribute="trailing" id="ckS-f0-a7e"/>
+                            <constraint firstItem="2Iw-I1-3kI" firstAttribute="top" secondItem="YLb-gJ-zpY" secondAttribute="bottom" id="fPl-xW-eT5"/>
+                            <constraint firstItem="YLb-gJ-zpY" firstAttribute="leading" secondItem="Mvz-rZ-OJQ" secondAttribute="leading" id="ucr-jM-v9m"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="99j-Tf-GB3"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnCloseMenuOverlay" destination="YLb-gJ-zpY" id="wcG-fC-hM7"/>
+                        <outlet property="tblMenuOptions" destination="F2x-Go-KgF" id="Uay-6x-KrB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Li-cd-vVv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2646" y="-1906"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="menu" width="22" height="22"/>
+    </resources>
+</document>
