@@ -23,6 +23,7 @@
 		84A9FBAE2091F99C0057A35D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A9FBAC2091F99C0057A35D /* MenuViewController.swift */; };
 		84A9FBAF2091F99C0057A35D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A9FBAD2091F99C0057A35D /* BaseViewController.swift */; };
 		84A9FBB12091FAAD0057A35D /* DOVDashboard_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A9FBB02091FAAD0057A35D /* DOVDashboard_VC.swift */; };
+		84BC413B209C2E2A0062BC50 /* DOVProfile_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F704D32091B44F006436AC /* DOVProfile_VC.swift */; };
 		84F7049720919624006436AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7049620919624006436AC /* AppDelegate.swift */; };
 		84F7049920919624006436AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7049820919624006436AC /* ViewController.swift */; };
 		84F7049C20919624006436AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F7049A20919624006436AC /* Main.storyboard */; };
@@ -40,7 +41,6 @@
 		84F704C72091A1E3006436AC /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F704C82091A1E3006436AC /* SwiftyJSON.framework */; };
 		84F704CA2091A8A1006436AC /* DOVRegistration_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F704C92091A8A1006436AC /* DOVRegistration_VC.swift */; };
 		84F704D22091B38C006436AC /* DOVDashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F704D12091B38C006436AC /* DOVDashboard.storyboard */; };
-		84F704D42091B44F006436AC /* DOVProfile_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F704D32091B44F006436AC /* DOVProfile_VC.swift */; };
 		84F704D62091B461006436AC /* DOVSetting_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F704D52091B461006436AC /* DOVSetting_VC.swift */; };
 		84F704D82091B47A006436AC /* DOVMyAppointment_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F704D72091B47A006436AC /* DOVMyAppointment_VC.swift */; };
 /* End PBXBuildFile section */
@@ -178,8 +178,6 @@
 				84F704CC2091B333006436AC /* Sidemenu */,
 				84F704CB2091AA9C006436AC /* Customview */,
 				84F704AD209196F9006436AC /* Constant */,
-				84F704AC209196D9006436AC /* ThirdParties */,
-				84F704AB209196CF006436AC /* Models */,
 				84F704AA209196C5006436AC /* ViewControllers */,
 			);
 			path = Classes;
@@ -200,20 +198,6 @@
 				8455080D2092EFEB009E4AEB /* DOVTandC_VC.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		84F704AB209196CF006436AC /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		84F704AC209196D9006436AC /* ThirdParties */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ThirdParties;
 			sourceTree = "<group>";
 		};
 		84F704AD209196F9006436AC /* Constant */ = {
@@ -439,12 +423,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BC413B209C2E2A0062BC50 /* DOVProfile_VC.swift in Sources */,
 				84F704BC20919C19006436AC /* ObjeCUtil.m in Sources */,
 				845508172092F922009E4AEB /* DOVForgotpassword_VC.swift in Sources */,
 				84F704D62091B461006436AC /* DOVSetting_VC.swift in Sources */,
 				845508062092EF10009E4AEB /* DOVAboutUs_VC.swift in Sources */,
 				84F704BA20919C19006436AC /* Logger.swift in Sources */,
-				84F704D42091B44F006436AC /* DOVProfile_VC.swift in Sources */,
 				845508192092F936009E4AEB /* DOVSendOTP_VC.swift in Sources */,
 				84F704BB20919C19006436AC /* Util.swift in Sources */,
 				84A9FBAF2091F99C0057A35D /* BaseViewController.swift in Sources */,
