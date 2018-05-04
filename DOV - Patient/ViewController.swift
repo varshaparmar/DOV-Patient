@@ -20,6 +20,10 @@ class ViewController: UIViewController
         super.viewDidLoad()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+    }
+    
    
     
     // MARK: - Action methods-----------------------------------------------------------------

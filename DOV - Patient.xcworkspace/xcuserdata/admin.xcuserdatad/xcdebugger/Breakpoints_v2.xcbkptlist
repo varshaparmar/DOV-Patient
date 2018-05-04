@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DOV - Patient/Classes/Sidemenu/BaseViewController.swift"
-            timestampString = "546508454.475052"
+            timestampString = "546515843.246546"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "openViewControllerBasedOnIdentifier(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,23 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DOV - Patient/Classes/Sidemenu/BaseViewController.swift"
-            timestampString = "546508454.475119"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "slideMenuItemSelectedAtIndex(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DOV - Patient/Classes/Sidemenu/BaseViewController.swift"
-            timestampString = "546508454.475184"
+            timestampString = "546515843.246626"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"
@@ -74,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DOV - Patient/Classes/Sidemenu/BaseViewController.swift"
-            timestampString = "546508454.475247"
+            timestampString = "546515843.246694"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
@@ -90,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DOV - Patient/Classes/Sidemenu/BaseViewController.swift"
-            timestampString = "546508454.4753079"
+            timestampString = "546515843.24676"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "openViewControllerBasedOnIdentifier(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -106,12 +90,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DOV - Patient/Classes/Sidemenu/MenuViewController.swift"
-            timestampString = "546508454.475372"
+            timestampString = "546515418.8635"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "74"
             endingLineNumber = "74"
-            landmarkName = "updateArrayMenuOptions()"
+            landmarkName = "onCloseMenuClick(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -122,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DOV - Patient/Classes/Sidemenu/MenuViewController.swift"
-            timestampString = "546508454.475443"
+            timestampString = "546515418.863566"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "79"
@@ -138,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DOV - Patient/Classes/Sidemenu/MenuViewController.swift"
-            timestampString = "546508454.475502"
+            timestampString = "546515418.863626"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "83"
@@ -186,7 +170,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DOV - Patient/Classes/Sidemenu/MenuViewController.swift"
-            timestampString = "546508454.4755599"
+            timestampString = "546515418.863685"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "86"
@@ -202,7 +186,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DOV - Patient/Classes/Sidemenu/MenuViewController.swift"
-            timestampString = "546508454.475618"
+            timestampString = "546515418.863744"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "89"
@@ -234,23 +218,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DOV - Patient/Classes/Sidemenu/BaseViewController.swift"
-            timestampString = "546508454.47574"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
-            landmarkName = "openViewControllerBasedOnIdentifier(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DOV - Patient/Classes/Sidemenu/BaseViewController.swift"
-            timestampString = "546508454.4758019"
+            timestampString = "546515843.247175"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "71"
@@ -265,14 +233,30 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+            filePath = "DOV - Patient/Classes/Sidemenu/BaseViewController.swift"
+            timestampString = "546515843.247259"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "openViewControllerBasedOnIdentifier(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
             filePath = "DOV - Patient/Classes/ViewControllers/Login &amp; Registration/DOVRegistration_VC.swift"
-            timestampString = "546508454.47587"
+            timestampString = "546515843.24733"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "80"
             endingLineNumber = "80"
-            landmarkName = "click_TermsAndCondition(sender:)"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

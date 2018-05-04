@@ -25,15 +25,14 @@ class DOVRegistration_VC: UIViewController {
         
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        
+    override func viewWillAppear(_ animated: Bool)
+    {
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
+ 
     }
     override func viewDidAppear(_ animated: Bool) {
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
-        
-    }
     // MARK: - private methods------------------------------------------------------------------
     func CanRegister() -> Bool {
         
@@ -85,7 +84,6 @@ class DOVRegistration_VC: UIViewController {
     func RegisterAPI()  {
         
     }
-    
     
     // MARK: - Memory deallocation---------------------------------------------------------------
     override func didReceiveMemoryWarning() {

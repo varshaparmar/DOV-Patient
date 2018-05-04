@@ -56,7 +56,11 @@ class BaseViewController: UIViewController, SlideMenuDelegate {
             break
       
         default:
-            print("default\n", terminator: "")
+            
+            let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "ViewController")
+             self.navigationController!.pushViewController(vc, animated: true)
+              break
         }
     }
     

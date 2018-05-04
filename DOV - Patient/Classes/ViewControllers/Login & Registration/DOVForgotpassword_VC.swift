@@ -18,7 +18,9 @@ class DOVForgotpassword_VC: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
+    }
      // MARK: - Private methods----------------------------------------------------------------------
     
      // MARK: - Action methods-----------------------------------------------------------------------

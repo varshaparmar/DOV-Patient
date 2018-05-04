@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DOV___Patient" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="DOV___Patient" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,7 +71,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter OTP" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LrQ-jj-LtU">
-                                <rect key="frame" x="20" y="251" width="335" height="40"/>
+                                <rect key="frame" x="20" y="295" width="335" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Y8k-AM-5IE"/>
                                 </constraints>
@@ -80,7 +80,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hA7-92-V6J">
-                                <rect key="frame" x="123" y="311" width="130" height="40"/>
+                                <rect key="frame" x="123" y="355" width="130" height="40"/>
                                 <color key="backgroundColor" red="0.45653104782104492" green="0.45264393091201782" blue="0.084736950695514679" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="M2M-Kw-kWL"/>
@@ -105,10 +105,11 @@
                         <viewLayoutGuide key="safeArea" id="dxo-dw-Ds0"/>
                     </view>
                     <navigationItem key="navigationItem" id="RH6-pW-ba4"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5YA-KX-PTo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-142" y="326"/>
+            <point key="canvasLocation" x="580" y="321"/>
         </scene>
         <!--RegistrationVC-->
         <scene sceneID="bwk-84-dEs">
@@ -168,7 +169,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter OTP" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="61P-LL-ZlE">
-                                <rect key="frame" x="20" y="240" width="335" height="40"/>
+                                <rect key="frame" x="20" y="284" width="335" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="eSg-Du-rra"/>
                                 </constraints>
@@ -177,7 +178,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35f-Aa-FJe">
-                                <rect key="frame" x="123" y="300" width="130" height="30"/>
+                                <rect key="frame" x="123" y="344" width="130" height="30"/>
                                 <color key="backgroundColor" red="0.45653104782104492" green="0.45264393091201782" blue="0.084736950695514679" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="6h6-s5-s4J"/>
@@ -201,6 +202,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="E8m-Z0-L3X"/>
                     </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VaC-mb-Az3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
